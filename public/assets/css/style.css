@@ -1,0 +1,204 @@
+/* * {
+    margin: 0px !important;
+    padding: 0px !important;
+} */
+body {
+    cursor: url('path-to-image.png'), auto;
+    background-color: rgb(33, 33, 33);
+    color: white !important;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Cairo', sans-serif;
+    overflow-x: hidden;
+    /* user-select: none; */
+}
+::selection {
+    color: #fc11a6;
+    background-color: rgb(0, 0, 0);
+}
+a { color: white; text-decoration: none;}
+a:hover { color: #fc11a6 }
+
+/* start of header style */
+#ar {
+    z-index: 2;
+}
+#en {
+    z-index: 2;
+}
+.H {
+    padding: 0px 40px !important;
+}
+.head {
+    background-color: rgb(33, 33, 33);
+    height: 60px;
+    border-bottom: solid white 2px;
+    padding: 0px 0px !important;
+}
+ul {
+    padding: 0px 0px !important;
+    margin: 0px !important;
+}
+li {
+    display: inline-block;
+    padding: 5px 15px !important;
+    font-size: 28px;
+}
+.lang-selector {
+    margin-top: 25px;
+}
+.lang-btn {
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: white 1.5px solid;
+}
+.lang-btn:hover {
+    color: #fc11a6;
+    border: #fc11a6 1.5px solid;
+}
+/* end of header style */
+
+
+/* start of register style */
+.rigester-container {
+    margin-top: 10%;
+}
+input {
+    display: block;
+    margin-bottom: 20px !important;
+}
+.row-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: yellow 1px solid; */
+}
+.form-container {
+    height: 600px;
+    /* width: 400px; */
+    /* background-color: blue; */
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* z-index: -1; */
+}
+.login {
+    position: relative;
+    height: 500px;
+    /* width: 42%; */
+    background-color: rgb(43, 43, 43);
+    border-radius: 2px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0px -150px;
+    transition: 0.5s ease;
+    /* border-left: rgb(255, 255, 255) 15px solid;
+    border-right: rgb(255, 255, 255) 15px solid; */
+    z-index: 1;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px -4px black;
+    /* box-shadow: 0px -133px 0px -102px rgb(255, 0, 234); */
+}
+#login_form {
+    opacity: 1;
+}
+.signup {
+    position: relative;
+    height: 500px;
+    /* width: 42%; */
+    background-color: rgb(43, 43, 43);
+    border-radius: 2px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin: 0px -150px;
+    transition: 0.5s;
+    z-index: 0;
+    border-radius: 3px;
+    box-shadow: 0px 0px 10px -4px black;
+}
+#signup_form {
+    opacity: 0;
+}
+.login_text_container_left {
+    position: absolute;
+    left: -1%;
+    /* border: solid white 2px; */
+    height: 15%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.login_text_container_left p {
+    position: relative;
+    transform: rotate(-90deg);
+}
+.signup_text_container_left {
+    position: absolute;
+    left: -1%;
+    /* border: solid white 2px; */
+    height: 15%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+}
+.signup_text_container_left p {
+    position: relative;
+    transform: rotate(-90deg);
+}
+.login_text_container_right {
+    position: absolute;
+    right: -1%;
+    /* border: solid white 2px; */
+    height: 15%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.login_text_container_right p {
+    position: relative;
+    transform: rotate(-90deg);
+}
+.signup_text_container_right {
+    position: absolute;
+    right: -1%;
+    /* border: solid white 2px; */
+    height: 15%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+.signup_text_container_right p {
+    position: relative;
+    transform: rotate(-90deg);
+}
+/* end of register style */
+
+
+
+
+
+
+
+
+
+
+
+
+/* #google_translate_element{
+    z-index: 99999;
+} */
+  /* .goog-te-banner {
+      display: none !important;
+      height: 200px !important;
+  } */
